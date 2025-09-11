@@ -1,0 +1,5 @@
+from ast import Lambda
+Panjang = int(input('Masukan Panjang'))
+Lebar = int(input('Masukan Lebar'))
+Luas = Panjang * Lebar
+print ('Luas Persegi Panjangnya adalah = ', Luas )
