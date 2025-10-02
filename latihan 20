@@ -1,0 +1,33 @@
+or number in [0 , 1 , 2 , 3 , 4 ]:
+	print (number)
+	
+	
+	
+for number in range (5) :
+	print (number)
+	
+	
+#simple for py	
+surnames = ['kela' , 'sipa' , 'rayyan']
+for position in range (len(surnames)):
+	print(position, surnames[position])
+	
+	
+surnames =['kela' , 'imut' , 'lucu']
+for surname in surnames :
+	print (surname)
+	
+people = ['kela' , 'sipa' ,'esa']
+ages = [15 , 85, 90]
+for position in range (len(people)):
+	person = people [position]
+	age = ages [position]
+	print (person , age)
+	
+	
+ people = ["kela" , "sipa"  , "esa "]
+ ages =[15, 12, 40]
+ nationalities = ['swis' ,'german' ,'china']
+ for data in zip{people, ages, nationalities}:
+ 	person, age, nationality = data
+ 	print (person, age , nationality)
