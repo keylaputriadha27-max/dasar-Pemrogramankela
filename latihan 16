@@ -1,0 +1,5 @@
+late = False
+if late :
+	print(' hubungi wali kelas!') #1
+else :
+    print('tidak menghubungi walikelas^^') #2
