@@ -1,0 +1,14 @@
+belanja = float(input("Masukkan total belanja Anda: "))
+
+if belanja >= 1000000:
+    discount = 0.25 * belanja
+elif belanja >= 500000:
+    discount = 0.10 * belanja
+else:
+    discount = 0
+
+total_bayar = belanja - discount
+
+print(f"Total belanja Anda: Rp {belanja:,.2f}")
+print(f"Diskon yang didapat: Rp {discount:,.2f}")
+print(f"Total bayar setelah diskon: Rp {total_bayar:,.2f}")
