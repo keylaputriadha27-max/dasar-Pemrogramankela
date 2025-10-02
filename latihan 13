@@ -1,0 +1,13 @@
+#akses elemen (indexing)
+buah = ("apel" , "mangga" , "jeyuk" ,"pisang")
+print("elemen pertama:" , buah [0]) #output:apel
+print("elemen terakhir:" , buah [-1]) #output : pisang
+
+#slicing(memotong tuple)
+print("dua elemen pertama:" , buah[0:2]) #output : ('apel' , 'mangga')
+
+#panjang tuple
+print("jumlah buah:" , len(buah))#output:4
+
+#mengecek keberadaan elemen
+print("apakah'manga' ada?" , "mangga" in buah) #output;True
