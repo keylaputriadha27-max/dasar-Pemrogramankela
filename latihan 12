@@ -1,0 +1,8 @@
+#contoh dasar f-string
+nama = "kela"
+umur = 15
+tinggi = 153
+#formating sederhana
+print(f"nama: {nama}, umur: {umur} , tinggi: {tinggi} cm")
+#eksprsi dalam f-string
+print(f"tahun lahir: {2025 - umur}")
