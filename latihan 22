@@ -1,0 +1,15 @@
+# Mendefinisikan fungsi sapa()
+def sapa():
+  print("Halo! Selamat belajar Python!")
+
+# Memanggil fungsi sapa()
+sapa()
+
+
+# Mendefinisikan fungsi sapa() dengan parameter nama
+def sapa(nama):
+  print(f"Halo, {nama}! Selamat belajar Python!")
+
+# Memanggil fungsi sapa() dengan argumen berbeda
+sapa("kela")
+sapa("sipa")
