@@ -1,0 +1,15 @@
+def jumlah(a,b):
+	hasil = a + b 
+	return hasil
+#program utama
+x = int(input("masukkan angka pertama: "))
+y = int(input("masukkan angka kedua: "))
+print("hasil penjumlahan:" ,jumlah (x,y,))
+
+#program kedua
+print("perkalian")
+def perkalian(a,b):
+	hasil = a * b
+	return hasil
+#program utama
+print("hasil perkalian: " ,perkalian(x,y))
