@@ -1,0 +1,15 @@
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        return f"Hello, {self.name}"
+
+    def welcome(self):
+        print(f"{self.greet()}! Welcome to our website!")
+
+# input dari user
+nama = input("Masukkan nama Anda: ")
+
+p1 = Person(nama)
+p1.welcome()
