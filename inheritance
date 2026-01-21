@@ -12,3 +12,48 @@ class siswa(orang):
 siswa1 = siswa("ila")
 siswa1.sapa()
 siswa1.belajar()
+
+
+
+
+# Parent class
+class Kue:
+    def __init__(self, nama, harga):
+        self.nama = nama
+        self.harga = harga
+
+    def info(self):
+        print("Nama kue :", self.nama)
+        print("Harga    :", self.harga)
+
+
+# Child class
+class KueCoklat(Kue):
+    def __init__(self, nama, harga, kadar_coklat):
+        super().__init__(nama, harga)
+        self.kadar_coklat = kadar_coklat
+
+    def info(self):
+        super().info()
+        print("Kadar coklat :", self.kadar_coklat)
+
+
+# Child class lain
+class KueKeju(Kue):
+    def __init__(self, nama, harga, jenis_keju):
+        super().__init__(nama, harga)
+        self.jenis_keju = jenis_keju
+
+    def info(self):
+        super().info()
+        print("Jenis keju   :", self.jenis_keju)
+
+
+# Membuat objek
+kue1 = KueCoklat("Brownies", 25000, "Tinggi")
+kue2 = KueKeju("Cheesecake", 30000, "Cheddar")
+
+# Menampilkan info
+kue1.info()
+print()
+kue2.info()
