@@ -1,0 +1,14 @@
+class orang:
+    def __init__(self,nama):
+        self.nama = nama
+
+    def sapa(self):
+        print("halo, nama saya " , self.nama)
+
+class siswa(orang):
+    def belajar(self):
+        print(self.nama, "sedang belajar python")
+
+siswa1 = siswa("ila")
+siswa1.sapa()
+siswa1.belajar()
